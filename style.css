@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+}
+
+main {
+>h1{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(49, 56, 35);
+    filter: drop-shadow(1px 1px 1px yellow);
+}
+    >div {
+        width: 32%;
+        height: 500px;
+        background-color: gray;
+        margin: 100px auto;
+        border-radius: 20px;
+        filter: drop-shadow(1px 1px 15px yellow);
+        text-align: center;
+
+        >div {
+            &:nth-of-type(1) {
+                display: flex;
+                justify-content: center;
+
+                >h2 {
+                    margin-top: 50px;
+                    color: rgb(49, 56, 35);
+                }
+
+                >button {
+                    margin-top: 50px;
+                    filter: drop-shadow(1px 1px 5px yellow);
+                    border: none;
+                    background-color: transparent;
+
+                    >a {
+                        font-size: 20px;
+                        text-decoration: none;
+                        color: indigo;
+                    }
+                }
+            }
+
+            &:nth-of-type(2) {
+                display: flex;
+                justify-content: center;
+
+                >h2 {
+                    margin-top: 100px;
+                    color: rgb(49, 56, 35);
+                }
+
+                >button {
+                    margin-top: 100px;
+                    filter: drop-shadow(1px 1px 5px yellow);
+                    border: none;
+                    background-color: transparent;
+
+                    >a {
+                        font-size: 20px;
+                        text-decoration: none;
+                        color: indigo;
+                    }
+                }
+            }
+             &:nth-of-type(3) {
+                display: flex;
+                justify-content: center;
+
+                >h2 {
+                    margin-top: 100px;
+                    color: rgb(49, 56, 35);
+                }
+
+                >button {
+                    margin-top: 100px;
+                    filter: drop-shadow(1px 1px 5px yellow);
+                    border: none;
+                    background-color: transparent;
+
+                    >a {
+                        font-size: 20px;
+                        text-decoration: none;
+                        color: indigo;
+                    }
+                }
+            }
+        }
+    }
+}
+a{
+    i{
+        font-size: 50px;
+    }
+}
